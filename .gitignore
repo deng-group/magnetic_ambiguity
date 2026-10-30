@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.tmp
+.venv/
+# computed outputs (site tables, neighbour caches); reference tables under results/reference are kept
+results/*
+!results/reference/
+# MatPES pools are rebuilt from the public JSON (see docs/MATPES_ELEMENTS.md)
+data/matpes/pools/

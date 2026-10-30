@@ -1,0 +1,27 @@
+{
+  "corpora": {
+    "matpes_pbe": {"file": "MatPES-PBE-2025.2-charges.json", "sha256": "fa3bb54eb05bd336251a130e02839cc7193fd45c92a4569755e7a194f01bf6fe", "size_bytes": 2358718427},
+    "matpes_r2scan": {"file": "MatPES-R2SCAN-2025.2.json", "sha256": "d17878d1b5c33821b49a00412ccb7aabcdec3a67cea85552594954469680947f", "size_bytes": 1946549525}
+  },
+  "elements": ["V", "Co", "Fe", "Cr", "Mn", "Ni", "Cu", "Ti", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd"],
+  "element_sets": {
+    "first_set_2026-08-25": ["V", "Co", "Fe", "Cr"],
+    "extension_2026-09": ["Mn", "Ni", "Cu"],
+    "validation_2026-10-11": ["Ti", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd"]
+  },
+  "shown_in_periodic_figure_but_not_pools": ["Sc", "Zn", "Y", "Zr", "Ag", "Cd"],
+  "population_rules": {
+    "whole_frame_abs_moment_max_muB": 8.0,
+    "duplicates": "retained",
+    "separate_isolated_atoms": "not appended",
+    "missing_or_nonfinite_magmom": "fatal",
+    "partial_occupancy": "fatal",
+    "parent_id": "matpes_id without its final underscore-delimited numeric step"
+  },
+  "ambiguity_definition": {
+    "soap": {"r_cut": 6.0, "n_max": 8, "l_max": 3, "species_basis": "per structure"},
+    "neighbors": {"k_exact": 100, "alpha": 1.25, "m_ref": 5, "exclude_same_frame": false},
+    "moments": "signed", "tail_fraction": 0.08, "frame_fmax_filter_eV_A": 20.0,
+    "source_version": "6cf4308f08ed0600"
+  }
+}

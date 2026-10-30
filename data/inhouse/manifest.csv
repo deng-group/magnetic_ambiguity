@@ -1,0 +1,31 @@
+filename,system,subset,hubbard_u,model,temperature_K,n_frames,n_atoms,force_arrays,force_unit,notes
+Co3O4_100_MACE_atomic_forces.extxyz,Co3O4,temperature_series,yes,MACE,100,79,4424,DFT_force;MACE_force,eV/A,
+Co3O4_150_MACE_atomic_forces.extxyz,Co3O4,temperature_series,yes,MACE,150,80,4480,DFT_force;MACE_force,eV/A,
+Co3O4_200_MACE_atomic_forces.extxyz,Co3O4,temperature_series,yes,MACE,200,80,4480,DFT_force;MACE_force,eV/A,
+Co3O4_250_MACE_atomic_forces.extxyz,Co3O4,temperature_series,yes,MACE,250,80,4480,DFT_force;MACE_force,eV/A,
+Co3O4_400_MACE_atomic_forces.extxyz,Co3O4,temperature_series,yes,MACE,400,186,10416,DFT_force;MACE_force,eV/A,
+Co3O4_500_MACE_atomic_forces.extxyz,Co3O4,temperature_series,yes,MACE,500,80,4480,DFT_force;MACE_force,eV/A,
+Co3O4_50_MACE_atomic_forces.extxyz,Co3O4,temperature_series,yes,MACE,50,56,3136,DFT_force;MACE_force,eV/A,
+Co3O4_600_MACE_atomic_forces.extxyz,Co3O4,temperature_series,yes,MACE,600,80,4480,DFT_force;MACE_force,eV/A,
+Co3O4_700_MACE_atomic_forces.extxyz,Co3O4,temperature_series,yes,MACE,700,51,2856,DFT_force;MACE_force,eV/A,
+Co3O4_800_MACE_atomic_forces.extxyz,Co3O4,temperature_series,yes,MACE,800,80,4480,DFT_force;MACE_force,eV/A,
+Co3O4_900_MACE_atomic_forces.extxyz,Co3O4,temperature_series,yes,MACE,900,80,4480,DFT_force;MACE_force,eV/A,
+CrO2_all_U_MACE_atomic_forces.extxyz,CrO2,all,yes,MACE,,160,17280,DFT_force;MACE_force,eV/A,
+CrO2_all_noU_MACE_atomic_forces.extxyz,CrO2,all,no,MACE,,160,17280,DFT_force;MACE_force,eV/A,
+Li0.5CoO2_U_MACE_atomic_forces.extxyz,Li0.5CoO2,all,yes,MACE,,283,15848,DFT_force;MACE_force,eV/A,Li0.5CoO2 subset from the mixed-composition LiCoO2 source dataset.
+LiCoO2_all_U_MACE_atomic_forces.extxyz,LiCoO2,all,yes,MACE,,152,14592,DFT_force;MACE_force,eV/A,
+LiCoO2_all_noU_MACE_atomic_forces.extxyz,LiCoO2,all,no,MACE,,160,15360,DFT_force;MACE_force,eV/A,
+N2VP_100_MACE_atomic_forces.extxyz,N2VP,temperature_series,yes,MACE,100,80,6080,DFT_force;MACE_force,eV/A,
+N2VP_200_MACE_atomic_forces.extxyz,N2VP,temperature_series,yes,MACE,200,80,6080,DFT_force;MACE_force,eV/A,
+N2VP_300_MACE_atomic_forces.extxyz,N2VP,temperature_series,yes,MACE,300,80,6080,DFT_force;MACE_force,eV/A,
+N2VP_400_MACE_atomic_forces.extxyz,N2VP,temperature_series,yes,MACE,400,80,6080,DFT_force;MACE_force,eV/A,
+N2VP_500_MACE_atomic_forces.extxyz,N2VP,temperature_series,yes,MACE,500,80,6080,DFT_force;MACE_force,eV/A,
+N2VP_50_MACE_atomic_forces.extxyz,N2VP,temperature_series,yes,MACE,50,80,6080,DFT_force;MACE_force,eV/A,
+N2VP_600_MACE_atomic_forces.extxyz,N2VP,temperature_series,yes,MACE,600,80,6080,DFT_force;MACE_force,eV/A,
+N2VP_700_MACE_atomic_forces.extxyz,N2VP,temperature_series,yes,MACE,700,80,6080,DFT_force;MACE_force,eV/A,
+N2VP_800_MACE_atomic_forces.extxyz,N2VP,temperature_series,yes,MACE,800,80,6080,DFT_force;MACE_force,eV/A,"80-frame structural subset of the 270-frame NVP x2 baseline; DFT data are identical for shared frames, but predictions are from the separately trained temperature-series model."
+N2VP_900_MACE_atomic_forces.extxyz,N2VP,temperature_series,yes,MACE,900,80,6080,DFT_force;MACE_force,eV/A,
+NVP_all_U0_MACE_atomic_forces_matched.extxyz,NVP,all,no,MACE,,2562,196435,DFT_force;MACE_force,eV/A,Contains the 2562 converged structures; 38 unconverged frames were excluded and are listed in NVP_all_noU_excluded_unconverged_structures.csv.
+NVP_all_U31_MACE_atomic_forces.extxyz,NVP,all,yes (U=3.1 eV),MACE,,2600,198319,DFT_force;MACE_force,eV/A,Predictions are from the all-composition ordinary MACE model.
+NVP_all_U31_MagMACE_atomic_forces.extxyz,NVP,all,yes (U=3.1 eV),MagMACE,,2600,198319,DFT_force;MACE_force,eV/A,Same DFT structures as NVP_all_U31_MACE_atomic_forces.extxyz; predictions are from MagMACE.
+NVP_x2_U31_x2_MACE_atomic_forces.extxyz,NVP,x2 baseline,yes (U=3.1 eV),MACE,800,270,20520,DFT_force;MACE_force,eV/A,"270-frame x2 subset of the all-composition NVP +U dataset, evaluated with the x2-specific model; the 80-frame N2VP 800 K file is a structural subset with predictions from a separately trained model."

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magnetic-ambiguity"
+version = "0.1.0"
+description = "Geometry-magnetic ambiguity of DFT datasets: adaptive SOAP twins, site ambiguity a_i, dataset tail statistic T_p (T8)"
+requires-python = ">=3.10"
+dependencies = ["ase", "dscribe", "numpy", "pandas", "scikit-learn", "pyarrow"]
+
+[project.optional-dependencies]
+matpes = ["ijson"]
+dev = ["pytest", "matplotlib"]
+
+[project.scripts]
+magnetic-ambiguity = "magnetic_ambiguity.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["magnetic_ambiguity*"]
